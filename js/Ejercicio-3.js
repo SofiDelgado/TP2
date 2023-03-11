@@ -1,10 +1,10 @@
 const text = "Desea seguir agregando texto?"
-let oracion =""
+let oracion ="";
 do
 {
     let cadena = prompt("Introduce texto: ");
     resultado = window.confirm(text);
-    oracion += cadena+ " - git";
+    oracion += cadena+ " - ";
 }while(resultado==true);
 if(oracion!=null)
 {
