@@ -14,5 +14,4 @@ do
     {
         alert("No es un numero valido");
     }
-    resultado = window.confirm(text);
-}while(resultado==true);
+}while(window.confirm(text)==true);
