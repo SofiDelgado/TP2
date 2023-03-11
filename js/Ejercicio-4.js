@@ -11,8 +11,7 @@ do
     {
         alert("No es un numero");
     }
-    resultado = window.confirm(text);
-    
-}while(resultado==true);
+   
+}while(confirm(text) == true);
 
 alert(suma);
