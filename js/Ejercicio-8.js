@@ -10,12 +10,16 @@
 ……
 */
 let cantDeNum = parseInt(prompt("Ingrese la cantidad de numeros que quiere para la piramide:"));
-for(let i=1; i<cantDeNum;i++)
+for(let i=1; i<=cantDeNum;i++)
 {
-    for(let j=1; j<i ;j++)
+    
+    for(let j=1; j<=i ;j++)
     {
         document.write(j);
+       
     }
-    
+
     document.write('</br>');
+
+    
 }
